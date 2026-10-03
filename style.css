@@ -23,3 +23,30 @@ a {
   padding: 1rem 2rem;
   border-radius: 8px;
 }
+.town-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.building-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.building-link img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.building-link span {
+  margin-top: 6px;
+  font-weight: bold;
+}
