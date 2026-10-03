@@ -7,31 +7,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="game-screen">
+    <header class="hud">
+      <div class="hud-box">
+        <img src="assets/logo.png" alt="SamOS logo" class="hud-logo">
+        <div>
+          <h1>SamOS</h1>
+          <p>Welcome to town.</p>
+        </div>
+      </div>
+    </header>
 
-<main>
-  <h1>SamOS</h1>
-  <p>Welcome to town.</p>
-
-  <section class="town-map">
-    <div class="building-row">
-      <a class="building-link" href="farmhouse.html">
+    <main class="map">
+      <a href="#" class="building farmhouse">
         <img src="assets/Farmhouse.png" alt="Farmhouse">
         <span>Farmhouse</span>
       </a>
 
-      <a class="building-link" href="town-hall.html">
+      <a href="town-hall.html" class="building townhall">
         <img src="assets/Town_Hall.png" alt="Town Hall">
         <span>Town Hall</span>
       </a>
 
-      <a class="building-link" href="community-center.html">
+      <a href="community-center.html" class="building community">
         <img src="assets/Community_Center.png" alt="Community Center">
         <span>Community Center</span>
       </a>
-    </div>
-  </section>
-</main>
-
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
